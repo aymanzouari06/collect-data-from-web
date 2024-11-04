@@ -9,11 +9,11 @@ from sqlalchemy import create_engine, Column, Integer, String
 import urllib
 import pyodbc
 
-server_name = '192.168.0.107,1415'
-database= 'csys'
-username = 'sa'
-password = 'csadminpa$$2010'
-schema='dbo'
+server_name = ''
+database= ''
+username = ''
+password = ''
+schema=''
 
 def scrape_data(url):
 
